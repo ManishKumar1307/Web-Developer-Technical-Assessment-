@@ -118,33 +118,7 @@ export default function FormPage() {
               <ContactForm onSuccess={() => setShowSuccess(true)} />
             </div>
 
-            <div className="mt-8 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 rounded-2xl p-6">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">
-                  ℹ
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">
-                    Developer Implementation Note
-                  </h3>
-                  <div className="text-gray-700 space-y-2">
-                    <p>
-                      • Form data is validated and sent to JSONPlaceholder API (POST /posts)
-                    </p>
-                    <p>
-                      • Check browser console for submission details and API response
-                    </p>
-                    <p>
-                      • Form state management handled with React hooks and TypeScript
-                    </p>
-                    <p className="text-sm text-gray-600 mt-3">
-                      This implementation demonstrates modern form handling, API integration,
-                      and user feedback in a React/Next.js application.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+     
           </div>
         </div>
       </div>
